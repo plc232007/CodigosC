@@ -1,9 +1,11 @@
 #include <stdio.h>
 
+//This code shows the Fibonacci sequence.
+
 int main () {
     
     int a, b, i, n, temp;
-    printf ("Quantidade de elementos: ");
+    printf ("How many elements will there be? ");
     scanf ("%d", &n);
     
     a = 0;
